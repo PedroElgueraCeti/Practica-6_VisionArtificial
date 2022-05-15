@@ -41,7 +41,6 @@ plt.axis('off')
 plt.title("Imagen: Resultado Rojo")
 plt.imshow(red)
 
-
 fig.add_subplot(fila,columna,5)
 plt.axis('off')
 plt.title("Imagen: Filtrado Verde")
@@ -50,7 +49,6 @@ fig.add_subplot(fila,columna,6)
 plt.axis('off')
 plt.title("Imagen: Resultado Verde")
 plt.imshow(green)
-
 
 fig.add_subplot(fila,columna,7)
 plt.axis('off')
