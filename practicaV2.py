@@ -24,7 +24,7 @@ green = cv2.bitwise_and(img1hsv, img1hsv, mask=green_mask)
 #while(1):
     #_, frame = img1.read()
 img1hsv = cv2.resize(img1,(400,300))
-cv2.imshow('img1hsv',cv2.COLOR_BGR2RGB(cv2.COLOR_HSV2BGR(img1hsv)))
+cv2.imshow('img1hsv',img1hsv)
 red = cv2.resize(red,(400,300))
 cv2.imshow('red',cv2.cvtColor(red,cv2.COLOR_HSV2BGR))
 green = cv2.resize(green,(400,300))
